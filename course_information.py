@@ -16,7 +16,7 @@ base_url = "https://zhjwxkyw.cic.tsinghua.edu.cn/xkYjs.vxkYjsJxjhBs.do?m=kkxxSea
 
 # 请求头
 headers = {
-    'Cookie': 'JSESSIONID=xxx; serverid=xxx' # 替换为实际的Cookie值
+    'Cookie': 'JSESSIONID=xxx; serverid=xxx' # 替换为实际的Cookie值，注意zhjwxkyw.cic.tsinghua.edu.cn和zhjwxk.cic.tsinghua.edu.cn 不共享Cookie
 }
 
 # 定义一个子函数来提取学时和课程内容
